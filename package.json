@@ -1,0 +1,30 @@
+{
+  "name": "baranau-ikea-jobs-automation",
+  "version": "1.0.0",
+  "description": "Test automation for IKEA jobs search using Playwright",
+  "main": "index.js",
+"scripts": {
+  "test": "playwright test",
+  "test:ui": "playwright test --ui",
+  "test:headed": "playwright test --headed",
+  "report": "playwright show-report"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abaranau82/Baranau-ikea-jobs-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abaranau82/Baranau-ikea-jobs-automation/issues"
+  },
+  "homepage": "https://github.com/abaranau82/Baranau-ikea-jobs-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}
