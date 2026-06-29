@@ -1,3 +1,4 @@
 export function generateUniqueEmail(prefix = 'qa', domain = 'example.com'): string {
-  return `${prefix}_${Date.now()}@${domain}`;
+  const randomSuffix = Math.random().toString(36).slice(2, 8);
+  return `${prefix}_${Date.now()}_${randomSuffix}@${domain}`;
 }
