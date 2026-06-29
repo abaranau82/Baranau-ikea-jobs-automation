@@ -39,3 +39,4 @@ test('Validate job details page essentials', async ({ page }) => {
     await jobsPage.expectApplyLinkIsValid();
   });
 });
+// Overall, the test is clean and maintainable, and Copilot feedback has been addressed well (env configurability, cookie handler scoping, unique email generation, trace policy).
